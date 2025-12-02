@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shashank Baxi | Frontend Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div class="animated-gradient-bg"></div>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Shashank Baxi</div>
+        <button id="nav-toggle" class="nav-toggle" aria-label="Open navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li>
+            <a href="#about"><i class="fas fa-user"></i> About Me</a>
+          </li>
+          <li>
+            <a href="#skills"
+              ><i class="fas fa-code"></i> Tech and Soft Skills</a
+            >
+          </li>
+          <li>
+            <a href="#projects"><i class="fas fa-laptop-code"></i> Projects</a>
+          </li>
+          <li>
+            <a href="#resume"><i class="fas fa-file-alt"></i> Resume</a>
+          </li>
+          <li>
+            <a href="#learning"
+              ><i class="fas fa-graduation-cap"></i> Learn & Certify</a
+            >
+          </li>
+          <li>
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About Section -->
+      <section id="about" class="section about about-flex">
+        <div class="about-text">
+          <h1>Shashank Baxi</h1>
+          <div class="role-blink">Frontend Developer</div>
+          <p class="bio">
+            Motivated Front-End Developer and B.E. Computer Science (Data
+            Science) student at Shri Shankaracharya Technical Campus, skilled in
+            HTML, CSS, JavaScript, React.js, Core Java, and Tailwind CSS.
+            Passionate about building responsive web applications and eager to
+            contribute to innovative startup projects while continuously
+            enhancing technical expertise.
+          </p>
+        </div>
+        <div class="profile-img-container">
+          <img
+            src="img-1.jpeg"
+            alt="Profile Photo of Shashank Baxi"
+            class="profile-img"
+            onerror="this.src='https://via.placeholder.com/300x400/18181b/FFD600?text=Profile'"
+          />
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section skills">
+        <h2><i class="fas fa-code"></i> Tech and Soft Skills</h2>
+        <div class="skill-list">
+          <div
+            class="skill"
+            tabindex="0"
+            data-desc="Markup and semantic structure"
+          >
+            HTML
+          </div>
+          <div class="skill" tabindex="0" data-desc="Styling and layouts">
+            CSS
+          </div>
+          <div class="skill" tabindex="0" data-desc="Dynamic web interactions">
+            JavaScript
+          </div>
+          <div
+            class="skill"
+            tabindex="0"
+            data-desc="Component-based architecture"
+          >
+            React.js
+          </div>
+          <div
+            class="skill"
+            tabindex="0"
+            data-desc="Utility-first CSS framework"
+          >
+            Tailwind CSS
+          </div>
+          <div class="skill" tabindex="0" data-desc="Adapts to any screen size">
+            Responsive Web Design
+          </div>
+          <div
+            class="skill"
+            tabindex="0"
+            data-desc="Object-oriented & core Java fundamentals"
+          >
+            Core Java
+          </div>
+          <div
+            class="skill"
+            tabindex="0"
+            data-desc="Collaborative and effective team player"
+          >
+            Team work
+          </div>
+          <div class="skill" tabindex="0" data-desc="Efficient time management">
+            Time management
+          </div>
+          <div
+            class="skill"
+            tabindex="0"
+            data-desc="Ability to lead and inspire"
+          >
+            Leadership
+          </div>
+          <div
+            class="skill"
+            tabindex="0"
+            data-desc="Excellent spoken and written English"
+          >
+            Fluent English
+          </div>
+        </div>
+        <div class="skill-tooltip" id="skill-tooltip"></div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section projects">
+        <h2><i class="fas fa-laptop-code"></i> Projects</h2>
+        <div class="project-container">
+          <div class="project-card">
+            <img
+              src="travel.jpg"
+              alt="Travel Website Example"
+              class="project-img"
+              onerror="this.src='https://via.placeholder.com/400x250/18181b/FFD600?text=TravelPace'"
+            />
+            <div class="project-content">
+              <h3>TravelPace Website</h3>
+              <p>
+                A smart travel planning website with interactive destination
+                search, modern UI, and fast performance. Built using HTML, CSS,
+                and JavaScript, it lets users explore attractions, get trip
+                recommendations, and plan journeys easily.
+              </p>
+              <div class="project-buttons">
+                <a
+                  href="https://travel-pace.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-btn"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img
+              src="shopping.jpg"
+              alt="DapperCart E-commerce Platform"
+              class="project-img"
+              onerror="this.src='https://via.placeholder.com/400x250/18181b/FFD600?text=DapperCart'"
+            />
+            <div class="project-content">
+              <h3>DapperCart</h3>
+              <p>
+                A modern e-commerce platform developed using React.js,
+                JavaScript (ES6+), and CSS3, showcasing 21+ products with
+                advanced filtering and sorting capabilities. Implements React
+                Hooks for state management, localStorage API for cart
+                persistence, and features a complete checkout system with
+                shipping and payment options. Built with Vite and deployed on
+                Vercel for optimal performance.
+              </p>
+              <div class="project-buttons">
+                <a
+                  href="https://dapper-cart-mauve.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-btn"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FIXED Resume Section -->
+      <section id="resume" class="section resume">
+        <h2><i class="fas fa-file-alt"></i> My Resume</h2>
+        <div class="resume-container">
+          <div class="resume-box">
+            <!-- Resume Preview Image with Error Handling -->
+            <div class="resume-preview">
+              <img
+                src="resume-image.webp"
+                alt="Shashank Baxi Resume Preview"
+                class="resume-img"
+                onerror="this.onerror=null; this.src='https://via.placeholder.com/500x650/ffffff/18181b?text=Resume+Preview'; this.alt='Resume preview not available';"
+              />
+            </div>
+
+            <!-- Resume Description -->
+            <p class="resume-description">
+              Download my resume to learn more about my skills, experience, and
+              academic background.
+            </p>
+
+            <!-- FIXED Action Buttons - Consistent naming -->
+            <div class="resume-buttons">
+              <a
+                href="resume-2.pdf"
+                download="Shashank_Baxi_Resume.pdf"
+                class="resume-btn download-btn"
+                onclick="return checkFileExists(this.href)"
+              >
+                <i class="fas fa-download"></i> Download Resume
+              </a>
+              <a
+                href="resume-2.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="resume-btn view-btn"
+                onclick="return checkFileExists(this.href)"
+              >
+                <i class="fas fa-eye"></i> View Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education & Certification & Internship Section -->
+      <section id="learning" class="section timelines">
+        <h2>
+          <i class="fas fa-graduation-cap"></i> Education, Certifications &
+          Internship
+        </h2>
+        <div class="timelines-container">
+          <div class="timeline timeline-edu">
+            <h3>Education</h3>
+            <ul>
+              <li>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <strong
+                    >B.Tech, Computer Science and Engineering (Data
+                    Science)</strong
+                  >
+                  <span
+                    >Shri Shankaracharya Technical Campus, Bhilai<br />(2022 -
+                    2026)</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <strong
+                    >CBSE (12th), Neeraj Public School, Rajnandgaon</strong
+                  >
+                  <span>(2008 - 2022)</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="timeline timeline-cert">
+            <h3>Certifications</h3>
+            <ul>
+              <li>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <strong>React JS Fundamentals</strong> — EdQuest<br />
+                  <a
+                    href="https://drive.google.com/file/d/1izK9gljLpK7usP_ae9RClAk_Bylxhabj/view?usp=sharing"
+                    target="_blank"
+                  >
+                    View Certificate
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <strong
+                    >Deloitte Australia - Data Analytics Job Simulation</strong
+                  >
+                  — Forage<br />
+                  <a
+                    href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_mq7NgBDGXq73RAxoN_1749535972936_completion_certificate.pdf"
+                    target="_blank"
+                  >
+                    View Certificate
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <strong
+                    >AWS APAC - Solutions Architecture Job Simulation</strong
+                  >
+                  — Forage<br />
+                  <a
+                    href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/pmnMSL4QiQ9JCgE3W/kkE9HyeNcw6rwCRGw_pmnMSL4QiQ9JCgE3W_mq7NgBDGXq73RAxoN_1741676242273_completion_certificate.pdf"
+                    target="_blank"
+                  >
+                    View Certificate
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="timeline timeline-internship">
+            <h3>Internship</h3>
+            <ul>
+              <li>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <strong
+                    >Web Development Training (HTML/CSS/JS) -
+                    Coincent.ai</strong
+                  ><br />
+                  <span
+                    >Learned Front-end Development skills using HTML, CSS, JS
+                    and built a responsive web project.</span
+                  ><br />
+                  <a
+                    href="https://drive.google.com/file/d/1v2R_UApmflLVdhwL3eOjudrPfNzmIJeb/view?usp=sharing"
+                    target="_blank"
+                    class="btn-certificate"
+                  >
+                    View Certificate
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section contact">
+        <h2><i class="fas fa-envelope"></i> Contact</h2>
+        <div class="contact-box">
+          <form id="contact-form">
+            <label for="contact-to">To:</label>
+            <select id="contact-to" name="contact-to" required>
+              <option value="shashankbaxi1@gmail.com">
+                Shashank Baxi (Owner)
+              </option>
+              <option value="general">General Inquiry</option>
+            </select>
+            <label for="contact-message">Message:</label>
+            <textarea
+              id="contact-message"
+              name="message"
+              placeholder="Write your message here..."
+              required
+            ></textarea>
+            <button type="submit">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+          <div id="form-response"></div>
+        </div>
+        <div class="contact-link-center contact-row-links">
+          <a
+            href="https://www.linkedin.com/in/shashankbaxi16"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a
+            href="https://github.com/shashankbaxi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="mailto:shashankbaxi1@gmail.com">
+            <i class="fas fa-envelope"></i> Email
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>© 2025 Shashank Baxi. All rights reserved.</p>
+    </footer>
+    <!-- Scroll To Top Button -->
+    <button id="scrollToTopBtn" aria-label="Scroll to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript for Resume File Check -->
+    <script>
+      function checkFileExists(url) {
+        fetch(url, { method: "HEAD" })
+          .then((response) => {
+            if (response.ok) {
+              return true;
+            } else {
+              alert("Resume file not found. Please contact Shashank directly.");
+              return false;
+            }
+          })
+          .catch(() => {
+            alert("Resume file not found. Please contact Shashank directly.");
+            return false;
+          });
+        return true;
+      }
+    </script>
+  </body>
+</html>
